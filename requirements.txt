@@ -1,0 +1,9 @@
+# 基础/常用依赖 (可选，工具内置轻量纯 Python 解析器与 HTTP 会话，零依赖亦可运行基础功能)
+pyyaml>=6.0.1
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+markdownify>=0.12.1
+
+# 平台高级协议扩展 (按需安装)
+gkeepapi>=0.14.2        # Google Keep 在线同步
+pyicloud>=1.0.0         # Apple iCloud 在线同步 (含 2FA)
